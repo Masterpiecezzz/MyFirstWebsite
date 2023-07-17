@@ -1,0 +1,208 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url("images/hexellence.png");
+    background-size: 15vh;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+div.site
+{
+    height: 100%;
+    width: 100%;
+    height: 2000px;
+}
+div.logo
+{
+    height: 13.3%;
+    width: 100vw;
+    background-color: rgb(51, 50, 50);
+    border-bottom: 3px solid black;
+    position: fixed;
+    top: 0;
+    box-shadow: 1px 5px 10px 0px rgba(0,0,0,0.76);
+    -webkit-box-shadow: 1px 5px 10px 0px rgba(0,0,0,0.76);
+    -moz-box-shadow: 1px 5px 10px 0px rgba(0,0,0,0.76);
+    user-select: none;
+    z-index: 1;
+}
+img.logo
+{
+    height: 10vh;
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+img.logo:hover
+{
+    border-color: rgb(150, 148, 148);
+    height: 9vh;
+}
+h1.logo
+{
+    font-size: 4vh;
+    text-transform: uppercase;
+    padding-left: 10px;
+    letter-spacing: 5px;
+    color: rgb(240, 180, 111);
+}
+span.logo
+{
+    color: rgb(115, 197, 235);
+}
+div.first
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30vw;
+    float: left;
+}
+div.second
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40vw;
+    float: left;
+}
+div.third
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30vw;
+    float: left;
+    margin: 0 auto;
+}
+i.nav
+{
+    font-size: 3vh;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+    border: 3px solid rgb(150, 148, 148);
+    border-radius: 50%;
+    padding: 3px;
+    transition: 0.5s;
+}
+i.nav:hover
+{
+    font-size: 2.5vh;
+    border-color: #fff;
+}
+i.icon-home:hover
+{
+    background: #B1A2CA;
+}
+i.icon-facebook:hover
+{
+    background: linear-gradient(to top,#0165E1, #17A9FD);
+}
+i.icon-youtube-play:hover
+{
+    background: #FF0000;
+}
+i.icon-instagram:hover
+{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    
+}
+i.icon-steam-squared:hover
+{
+    background: #027eac;
+}
+div#clock
+{
+    font-size: 3.2vh;
+    font-weight: bold;
+    color: white;
+    padding: 1vw;
+    border: 5px solid white;
+    border-radius: 2vw;
+}
+div.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(51, 50, 50);
+    border-top: 3px solid black;
+    user-select: none;
+    box-shadow: 1px -5px 10px 0px rgba(0,0,0,0.76);
+    -webkit-box-shadow: 1px -5px 10px 0px rgba(0,0,0,0.76);
+    -moz-box-shadow: 1px -5px 10px 0px rgba(0,0,0,0.76);
+}
+p.footer
+{
+    color: white;
+    font-size: 1vw;
+}
+div.main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+div.content
+{
+    display: flex;
+    height: 100%;
+    width: 66%;
+}
+div.contenttwo
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 93.53%;
+    width: 100%;
+    background-color: #5a585865;
+    margin-top: auto;
+    position: sticky;
+}
+h1.gallery
+{
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    text-decoration-color: rgb(104, 104, 104);
+}
+img.ramka
+{
+	border:5px solid white;
+    border-radius: 20px;
+}
+img.ramka:hover
+{
+	border:5px solid rgb(240, 117, 117);
+}
+a.photo
+{
+    margin-top: 10px;
+}
+a.photo:last-child
+{
+    margin-left: 10px;
+}
